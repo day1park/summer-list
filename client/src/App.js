@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import AppNavBar from "./components/AppNavBar";
+import BucketList from "./components/BucketList";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
@@ -8,6 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <AppNavBar />
+        <BucketList />
         <h1>sup</h1>
       </div>
     );
