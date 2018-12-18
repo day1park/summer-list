@@ -20,7 +20,6 @@ class App extends Component {
             <ItemModal />
             <BucketList />
           </Container>
-          <h1>sup</h1>
         </div>
       </Provider>
     );
